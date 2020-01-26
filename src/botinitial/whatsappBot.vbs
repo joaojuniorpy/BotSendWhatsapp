@@ -1,6 +1,6 @@
 Dim startmundo
 Set Fso = CreateObject("Scripting.FileSystemObject")
-Set InputFile = fso.OpenTextFile("Bot/src/contatos.txt")
+Set InputFile = fso.OpenTextFile("Bot/src/data/birthday/05.txt")
 Do While Not (InputFile.atEndOfStream)
      contatos = InputFile.ReadLine
      set startmundo = CreateObject("WScript.Shell")
